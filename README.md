@@ -2,6 +2,7 @@
 Let's practice using grammars! For this lab, please pull up the L-system node in Houdini.
 
 1. F=FF[+FF]F[+FF]FF+
+2. F=F-F+F+F-F
 
 ## 1. Wheat grammar puzzle
 Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
