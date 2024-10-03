@@ -3,7 +3,20 @@ Let's practice using grammars! For this lab, please pull up the L-system node in
 
 1. F=FF[+FF]F[+FF]FF+
 2. F=F-F+F+F-F
+3. F=--[F+F+F+F+F]++[X]++[F-F-F-F-F]--
+   X=[FFFF-FF+FF+++++FF+FF]
+   (angle = 30)
 
+   The structure of this plant is flower petals (F) and leaves (X). The flower blooms more with more iterations. The leaves spread and rotate with more iterations.
+
+Images of iterations 1-5:
+
+![](./i-1.png)
+![](./i-2.png)
+![](./i-3.png)
+![](./i-4.png)
+![](./i-5.png)
+   
 ## 1. Wheat grammar puzzle
 Look at these iterations (n = 1, 2, 3) of a one-rule grammar. Using the built in symbols in Houdini, design a grammar that produces this output. Take a screenshot of your rules.\
 <img width="200" alt="square1" src="https://user-images.githubusercontent.com/1758825/193949661-a3a0e1f7-7d68-4b9e-8384-d9991e1e9fd2.png">
